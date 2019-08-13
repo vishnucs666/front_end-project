@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
-
 <head>
 <style>
+ *{
+  padding: 0px;
+  margin:0px; 
+ }
   #menu li{
     display:inline;
   }
   .ml_left{
-    margin-left: 38%;
+    margin-left: 42%;
   }
   .font_size{
     font-size: 100%;
@@ -19,20 +21,50 @@
     height : 30px;
   }
   .bg_color{
-    background-color: red;
+    background-color: #b31b1b;
   }
   .ml_left1{
-    margin-left:0%;
+    margin-left:2%;
+    margin-top: 2%;
   }
   .font_size1{
     font-size: 150%;
+  }
+  .border1{
+    margin-block-start: 1em;
+  }
+  .vertical{
+    vertical-align: middle;
+  }
+  .ml-left{
+    margin-left: 70px;
+  }
+  .image_container{
+    background-image: url("./cornell.jpg")
+  }
+
+  .abs{
+    position: absolute;
+    width: 100%;
+  }
+  .rel{
+    position:relative;
+  }
+  .radius{
+    border-radius: 50%;
+  }
+  .ml_left2{
+    margin-left:3%;
+  }
+  .ml-left-head{
+    margin-left:15%;
   }
 
 </style>
 </head>
 
 <body>
-  <div style = "background-color: red">
+  <div style = "background-color:#b31b1b">
   <ul id = "menu" class = 'ml_left font_size' >
     <li class = "border">Apply</li>
     <li class = "border">Visit</li>
@@ -46,19 +78,31 @@
     <li></li>
   </ul>
   </div>
+ <div class = "rel">
+  <div class = "abs">
+      <img src="download.png" height="130px" class="ml_left1 vertical radius">
+      <ul id="menu" class=" font_size1" style="display: inline">
+        <li class="border ml-left">About Cornell</li>
+        <li class="border">Admissions</li>
+        <li class="border">Academics</li>
+        <li class="border">Research</li>
+        <li class="border">Public Engagement</li>
+        <li class="border">Student Life</li>
+      </ul>
+ </div>
+ <img src="cornell.jpg" width="100%;" alt=""/> 
+</div>
+
+<br>
+<p class = "ml_left2">SPOT LIGHT</p>
+<div class = "ml_left2" style= "width:300px; height:200px; border: 1px solid #000; display:inline-block;">SPOT LIGHT</div>
+<!-- <label class = "ml-left-head" style = "display:inline-block">CORNELLCAST</label> -->
+<div class = "ml_left2" style= "width:300px; height:200px; border: 1px solid #000; display: inline-block;">CORNELLCAST</div>
 
 
-  <ul id = "menu" class = "font_size1">
-    <li><img src ="download.png"></li>
-    <li class = "border">About Cornell</li>
-    <li class = "border">Admissions</li>
-    <li class = "border">Academics</li>
-    <li class = "border">Research</li>
-    <li class = "border">Public Engagement</li>
-    <li class = "border">Student Life</li>
-  </ul>
+<br>
+<br>
+<br>
 
 
 </body>
-
-</html>
