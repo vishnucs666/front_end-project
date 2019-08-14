@@ -69,6 +69,12 @@
     margin-left:3%;
     margin-top: -30%;
   }
+  .ml-left-rect{
+    margin-left: 1%;
+  }
+  .ml-left-image{
+    margin-left:10%;
+  }
   .rect{
     width:300px; height:200px;
     border: 1px solid #000;
@@ -81,8 +87,39 @@
     border:1px solid #000;
     display:inline-block;
   }
+  .rectangle{
+    width: 310px; height:200px;
+    border: 1px solid #000;
+    display: inline-block;
+  }
   .block{
     display:inline-block;
+  }
+  .hr{
+    margin-left: 2%;
+    border: 2px solid black;
+    width: 950px;
+  }
+  .vl{
+    margin-left: 3%;
+    border: 1px solid black;
+    height: 50px;
+  }
+  .txt-ali{
+    text-align: center;
+  }
+  .font-siz{
+    font-size: 130%;
+  }
+  .margin{
+    margin: 12%;
+  }
+  .btn{
+    width: 200px; height: 50px; 
+    border: 2px solid brown; 
+    background-color: white; 
+    color: brown; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
 </style>
@@ -133,12 +170,41 @@
 <br><br><center>NEW YORK STATE IMPACT</center><br><center>New tools help detect digital domestic abuse</center>
 
 </div>
+<br><br>
 
-<label >UPCOMING EVENTS</label>
+<label class = "ml_left2" style = "display: inline-block">UPCOMING EVENTS</label>
+<label class = "ml-left-head" style = "display: inline-block">IMPORTANT DATES</label>
+<div class="hr"></div>
 
 <br>
-<br>
-<br>
+<label class="ml_left2 block">Aug 14</label>
+<div class = "vl block vertical"></div>
+<label class="block">&nbsp;&nbsp;Cancer Support Group</label>
 
+<br><br><br>
+<br><br><br>
+
+<label class="ml_left2">AROUND THE UNIVERSITY</label>
+<br><br>
+<div class = "ml-left-rect rectangle " style = "background-color: black;"></div>
+<div class = "rectangle " style = "background-color:darkred;"></div>
+<div class = "rectangle " style = "background-color: black;"></div>
+<div class = "rectangle " style = "background-color:darkred;"></div>
+<br>
+<div class = "ml-left-rect rectangle " style = "background-color: black;"></div>
+<div class = "rectangle " style = "background-color:darkred;"></div>
+<div class = "rectangle " style = "background-color: black;"></div>
+<div class = "rectangle " style = "background-color:darkred;"></div>
+<br>
+<div>
+  <img src="./us.png" width="600px" class="vertical"/>
+  <div class="block margin">
+    <p class="txt-ali font-siz">In every country in New York, communities <br> on Cornell to turn discoveries into <br>real-world
+      solutions</p><br>
+    <p class="txt-ali"><button class="btn">NEW YORK STATE IMPACT</button></p>
+  </div>
+</div>
+<br>
+<br>
 
 </body>
