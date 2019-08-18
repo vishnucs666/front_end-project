@@ -1,6 +1,16 @@
 # front_end-project
 
-##### home_page.html page contain the cornell university home page design with the css added.
+## Description
 
-##### page.html contain the basic design of the site with no css added.
+   This is a website for cornell university 
+
+## Dependencies 
+
+   Use any web browser to run the website like google chrome, mozilla etc.
+
+## Used techonologies
+   
+   Basic html 
+   
+   
 
