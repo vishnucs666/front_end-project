@@ -1,4 +1,4 @@
-# front_end-project
+# Cornell university website
 
 ## Description
 
@@ -10,7 +10,14 @@
 
 ## Used techonologies
    
-   Basic html 
+   (i) Basic html
+   (ii) Java script
+   
+## Tutorials
+
+   The images directory contains the images for the university 
+   
+   The content_pages contain the neccessary pages for the website
    
    
 
