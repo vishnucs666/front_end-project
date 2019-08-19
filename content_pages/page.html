@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<head>
+</head>
+
+<body onload="load()">
+  <div>
+    <ul>
+      <li onclick="show()">Apply</li>
+      <div id="education">
+        <li><a href =  "./graduates.html">Graduates</a></li>
+        <li><a href = "./under_graduates.html">Under Graduates</a></li>
+      </div>
+      <li><a href = "./cornell_visit.html">Visit</a></li>
+      <li><a href = "./cornell_give.html">Give</a></li>
+      <li><a href = "./cornell_students.html">Students</a></li>
+      <li><a href = "./cornell_parents.html">Parents</a></li>
+      <li><a href = "./cornell_faculty.html">Faculty&Staff</a></li>
+      <li><a href = "./cornell_alumni.html">ALUMNI</a></li>
+      <li><input type="text" placeholder="Search"></li>
+      <li><img src="./images/search-logo-md.png" width="30px" height="20px"></li>
+      <li></li>
+    </ul>
+  </div>
+  <div>
+    <div>
+      <img src="./images/download.png" height="130px">
+      <ul>
+        <li>About Cornell</li>
+        <li>Admissions</li>
+        <li>Academics</li>
+        <li>Research</li>
+        <li>Public Engagement</li>
+        <li>Student Life</li>
+      </ul>
+    </div>
+    <img src="./images/cornell.jpg" width="100%;" alt="" />
+  </div>
+
+  <br>
+  <div>
+    <p>SPOT LIGHT</p>
+    <p>CORNELLCAST</p>
+  </div>
+
+  <img src="./images/gettyimages.jpg" width="300px" height="200px" />
+
+  <img src="./images/cornell.jpg" width="300px" height="200px" />
+
+  <br>
+  <p>The Wild Beast Of The New York City</p>
+  <p>Cornell programs bring opportunity to incacerated men</p>
+
+  <div><br><br><br><br>
+    <center>Cornell Chronicle</center>
+    <br><br>
+    <center>NEW YORK STATE IMPACT</center><br>
+    <center>New tools help detect digital domestic abuse</center>
+
+  </div>
+  <br><br>
+
+  <label>UPCOMING EVENTS</label>
+  <label>IMPORTANT DATES</label>
+  <div></div>
+
+  <br>
+  <label>Aug 14</label>
+  <div></div>
+  <label>&nbsp;&nbsp;Cancer Support Group</label>
+
+  <br><br><br>
+  <br><br><br>
+
+  <label>AROUND THE UNIVERSITY</label>
+  <br><br>
+  <img src="./images/gettyimages.jpg" width="318px" height="200px" />
+  <img src="./images/cornell.jpg" width="318px" height="200px" />
+  <img src="./images/gettyimages.jpg" width="318px" height="200px" />
+  <img src="./images/cornell.jpg" width="318px" height="200px" />
+  <br>
+  <img src="./images/gettyimages.jpg" width="318px" height="200px" />
+  <img src="./images/cornell.jpg" width="318px" height="200px" />
+  <img src="./images/gettyimages.jpg" width="318px" height="200px" />
+  <img src="./images/cornell.jpg" width="318px" height="200px" />
+  <br>
+  <div>
+    <img src="./images/us.png" width="600px" />
+    <div>
+      <p>In every country in New York, communities <br> on Cornell to turn discoveries into <br>real-world
+        solutions</p><br>
+      <p><button>NEW YORK STATE IMPACT</button></p>
+    </div>
+  </div>
+
+  <div>
+    <center>CORNELL UNIVERSITY</center>
+  </div>
+  <div>
+    <center>@CORNELL</center>
+  </div>
+  <div>
+    <center>@CORNELL_TECH</center>
+  </div>
+
+
+  <img src="./images/cornell.jpg" width="1300px" height="500px" />
+
+  <br>
+  <br>
+  <div>
+    <center>footer</center>
+  </div>
+
+
+  <script>
+    var id = document.getElementById("education")
+    function load() {
+      id.style.display = "none"
+    }
+
+    function show() {
+      console.log(id.style.display)
+      if (id.style.display == "none") {
+        console.log('the function is entered')
+        id.style.display = "block";
+      } else{
+        id.style.display = "none";
+        console.log("the else part is entered")
+      }
+    }
+  </script>
+
+</body>
