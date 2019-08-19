@@ -2,7 +2,7 @@
 
 ## Description
 
-   This is a website for cornell university 
+   This is a simple website for cornell university 
 
 ## Dependencies 
 
