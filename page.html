@@ -3,15 +3,15 @@
 <head>
 </head>
 
-<body>
+<body onload="load()">
 
 
 
 
   <div>
     <ul>
-      <li onclick="show()" >Apply</li>
-      <div id = "education">
+      <li onclick="show()">Apply</li>
+      <div id="education">
         <li>Graduates</li>
         <li>Under Graduates</li>
       </div>
@@ -118,19 +118,21 @@
 
 
   <script>
-      var id = document.getElementById("education")
+    var id = document.getElementById("education")
+    function load() {
       id.style.display = "none"
-      function show(){      
-        if(id.style.display = "none"){
-          console.log('the function is entered')
-          id.style.display = "block";
-        }
-        else if(id.style.display = "block"){
-          id.style.display = "none";
-          console.log("the else part is entered")
-        }
-      } 
-       
-    </script>
+    }
+
+    function show() {
+      console.log(id.style.display)
+      if (id.style.display == "none") {
+        console.log('the function is entered')
+        id.style.display = "block";
+      } else{
+        id.style.display = "none";
+        console.log("the else part is entered")
+      }
+    }
+  </script>
 
 </body>
