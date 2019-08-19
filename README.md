@@ -17,7 +17,7 @@
 
    The images directory contains the images for the university 
    
-   The content_pages contain the neccessary pages for the website
+   The content_pages directory contain the neccessary pages for the website
    
    
 
