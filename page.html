@@ -4,9 +4,17 @@
 </head>
 
 <body>
+
+
+
+
   <div>
     <ul>
-      <li>Apply</li>
+      <li onclick="show()" >Apply</li>
+      <div id = "education">
+        <li>Graduates</li>
+        <li>Under Graduates</li>
+      </div>
       <li>Visit</li>
       <li>Give</li>
       <li>Students</li>
@@ -107,5 +115,22 @@
   <div>
     <center>footer</center>
   </div>
+
+
+  <script>
+      var id = document.getElementById("education")
+      id.style.display = "none"
+      function show(){      
+        if(id.style.display = "none"){
+          console.log('the function is entered')
+          id.style.display = "block";
+        }
+        else if(id.style.display = "block"){
+          id.style.display = "none";
+          console.log("the else part is entered")
+        }
+      } 
+       
+    </script>
 
 </body>
