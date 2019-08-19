@@ -8,15 +8,15 @@
     <ul>
       <li onclick="show()">Apply</li>
       <div id="education">
-        <li><a href =  "./content_pages/graduates.html">Graduates</a></li>
-        <li><a href = "./content_pages/under_graduates.html">Under Graduates</a></li>
+        <li><a href="./content_pages/graduates.html">Graduates</a></li>
+        <li><a href="./content_pages/under_graduates.html">Under Graduates</a></li>
       </div>
-      <li><a href = "./content_pages/cornell_visit.html">Visit</a></li>
-      <li><a href = "./content_pages/cornell_give.html">Give</a></li>
-      <li><a href = "./content_pages/cornell_students.html">Students</a></li>
-      <li><a href = "./content_pages/cornell_parents.html">Parents</a></li>
-      <li><a href = "./content_pages/cornell_faculty.html">Faculty&Staff</a></li>
-      <li><a href = "./content_pages/cornell_alumni.html">ALUMNI</a></li>
+      <li><a href="./content_pages/cornell_visit.html">Visit</a></li>
+      <li><a href="./content_pages/cornell_give.html">Give</a></li>
+      <li><a href="./content_pages/cornell_students.html">Students</a></li>
+      <li><a href="./content_pages/cornell_parents.html">Parents</a></li>
+      <li><a href="./content_pages/cornell_faculty.html">Faculty&Staff</a></li>
+      <li><a href="./content_pages/cornell_alumni.html">ALUMNI</a></li>
       <li><input type="text" placeholder="Search"></li>
       <li><img src="./images/search-logo-md.png" width="30px" height="20px"></li>
       <li></li>
@@ -48,8 +48,11 @@
   <img src="./images/cornell.jpg" width="300px" height="200px" />
 
   <br>
-  <p><a href="https://www.washingtonpost.com/lifestyle/food/on-your-next-summer-vacation-look-for-berried-treasure/2019/08/12/145bef84-b954-11e9-b3b4-2bb69e8c4e39_story.html">On your next summer vacation , look for berried treasure</a></p>
-  <p><a href="http://www.cornell.edu/video/prison-education-programs-bring-opportunity-incarcerated-men">Cornell programs bring opportunity to incarcerated men</a></p>
+  <p><a
+      href="https://www.washingtonpost.com/lifestyle/food/on-your-next-summer-vacation-look-for-berried-treasure/2019/08/12/145bef84-b954-11e9-b3b4-2bb69e8c4e39_story.html">On
+      your next summer vacation , look for berried treasure</a></p>
+  <p><a href="http://www.cornell.edu/video/prison-education-programs-bring-opportunity-incarcerated-men">Cornell
+      programs bring opportunity to incarcerated men</a></p>
 
   <div><br><br><br><br>
     <center>Cornell Chronicle</center>
@@ -74,15 +77,23 @@
 
   <label>AROUND THE UNIVERSITY</label>
   <br><br>
-  <img src="./images/gettyimages.jpg" width="318px" height="200px" onclick="parent.location = './event_pages/images_navigation.html'"/>
-  <img src="./images/cornell.jpg" width="318px" height="200px" onclick="parent.location = './event_pages/images_navigation.html'" />
-  <img src="./images/gettyimages.jpg" width="318px" height="200px" onclick="parent.location = './event_pages/images_navigation.html'"/>
-  <img src="./images/cornell.jpg" width="318px" height="200px" onclick="parent.location = './event_pages/images_navigation.html'"/>
+  <img src="./images/gettyimages.jpg" width="318px" height="200px"
+    onclick="parent.location = './event_pages/images_navigation.html'" />
+  <img src="./images/cornell.jpg" width="318px" height="200px"
+    onclick="parent.location = './event_pages/images_navigation.html'" />
+  <img src="./images/gettyimages.jpg" width="318px" height="200px"
+    onclick="parent.location = './event_pages/images_navigation.html'" />
+  <img src="./images/cornell.jpg" width="318px" height="200px"
+    onclick="parent.location = './event_pages/images_navigation.html'" />
   <br>
-  <img src="./images/gettyimages.jpg" width="318px" height="200px" onclick="parent.location = './event_pages/images_navigation.html'"/>
-  <img src="./images/cornell.jpg" width="318px" height="200px" onclick="parent.location = './event_pages/images_navigation.html'"/>
-  <img src="./images/gettyimages.jpg" width="318px" height="200px" onclick="parent.location = './event_pages/images_navigation.html'"/>
-  <img src="./images/cornell.jpg" width="318px" height="200px" onclick="parent.location = './event_pages/images_navigation.html'"/>
+  <img src="./images/gettyimages.jpg" width="318px" height="200px"
+    onclick="parent.location = './event_pages/images_navigation.html'" />
+  <img src="./images/cornell.jpg" width="318px" height="200px"
+    onclick="parent.location = './event_pages/images_navigation.html'" />
+  <img src="./images/gettyimages.jpg" width="318px" height="200px"
+    onclick="parent.location = './event_pages/images_navigation.html'" />
+  <img src="./images/cornell.jpg" width="318px" height="200px"
+    onclick="parent.location = './event_pages/images_navigation.html'" />
   <br>
   <div>
     <img src="./images/us.png" width="600px" />
@@ -112,9 +123,9 @@
     <center>footer</center>
   </div>
 
-
   <script>
     var id = document.getElementById("education")
+
     function load() {
       id.style.display = "none"
     }
@@ -122,11 +133,9 @@
     function show() {
       console.log(id.style.display)
       if (id.style.display == "none") {
-        console.log('the function is entered')
         id.style.display = "block";
-      } else{
+      } else {
         id.style.display = "none";
-        console.log("the else part is entered")
       }
     }
   </script>
