@@ -4,8 +4,8 @@
 </head>
 
 <body onload="load()">
-  <div>
-    <ul>
+  <div id = "for-reload">
+    <!-- <ul>
       <li onclick="show()">Apply</li>
       <div id="education">
         <li><a href="./content_pages/graduates.html">Graduates</a></li>
@@ -20,7 +20,21 @@
       <li><input type="text" placeholder="Search"></li>
       <li><img src="./images/search-logo-md.png" width="30px" height="20px"></li>
       <li></li>
-    </ul>
+    </ul> -->
+    <a onclick = "show()">Apply</a>
+    <span id = "education">
+        <a href="./content_pages/graduates.html">Graduates</a>
+        <a href="./content_pages/under_graduates.html">Under Graduates</a>
+    </span>
+    <a href="./content_pages/cornell_visit.html">Visit</a>
+    <a href="./content_pages/cornell_give.html">Give</a>
+    <a href="./content_pages/cornell_students.html">Students</a>
+    <a href="./content_pages/cornell_parents.html">Parents</a>
+    <a href="./content_pages/cornell_faculty.html">Faculty&Staff</a>
+    <a href="./content_pages/cornell_alumni.html">ALUMNI</a>
+    <a><input type="text" placeholder="Search"></a>
+    <a><img src="./images/search-logo-md.png" width="30px" height="20px"></a>
+
   </div>
   <div>
     <div>
@@ -126,14 +140,14 @@
   <script>
     var id = document.getElementById("education")
 
-    function load() {
-      id.style.display = "none"
-    }
-
+    function load(){
+    id.style.display = "none"
+  }
     function show() {
       console.log(id.style.display)
       if (id.style.display == "none") {
         id.style.display = "block";
+        // document.location.reload();
       } else {
         id.style.display = "none";
       }
