@@ -1,38 +1,75 @@
 <!DOCTYPE html>
 
 <head>
+  <style>
+    *{
+      padding: 0px;
+      margin: 0px;
+    }
+    .nav{
+      
+      background-color:#b31b1b;
+    }
+    .ml_left_nav{
+      font-size: 120%;
+      margin-left: 35%;
+    }
+    .ml_left_nav1{
+      margin-left: 20%;
+      font-size: 140%;  
+    }
+    .margin1{
+      margin: 1%;
+    }
+    .margin{
+      font-size: 120%;
+      margin: 1%;
+    }
+    .margin-nav{
+      font-size: 140%;
+      margin: 1%;
+    }
+    .btn_style{
+      background-color: #b31b1b;
+      height: 30px;
+    }
+    a.links:link{color: black;text-decoration: none;}
+    a.links:visited{color: black;text-decoration: none;}
+    a.links:hover{text-decoration: underline;}
+    .vertical{
+      vertical-align: middle;
+    }
+
+  </style>
 </head>
 
 <body onload="load()">
-  <div id = "for-reload">
-    <a onclick = "show()">Apply</a>
-    <span id = "education">
-        <a href="./content_pages/graduates.html">Graduates</a>
-        <a href="./content_pages/under_graduates.html">Under Graduates</a>
+  <div id="for-reload" class="nav">
+    <a onclick="show()" class="ml_left_nav">Apply</a>
+    <span id="education">
+      <a href="./content_pages/graduates.html" class="margin links" >Graduates</a>
+      <a href="./content_pages/under_graduates.html" class="margin links">Under Graduates</a>
     </span>
-    <a href="./content_pages/cornell_visit.html">Visit</a>
-    <a href="./content_pages/cornell_give.html">Give</a>
-    <a href="./content_pages/cornell_students.html">Students</a>
-    <a href="./content_pages/cornell_parents.html">Parents</a>
-    <a href="./content_pages/cornell_faculty.html">Faculty&Staff</a>
-    <a href="./content_pages/cornell_alumni.html">ALUMNI</a>
-    <a><input type="text" placeholder="Search"></a>
+    <a href="./content_pages/cornell_visit.html" class="margin links">Visit</a>
+    <a href="./content_pages/cornell_give.html" class="margin links">Give</a>
+    <a href="./content_pages/cornell_students.html" class="margin links">Students</a>
+    <a href="./content_pages/cornell_parents.html" class="margin links">Parents</a>
+    <a href="./content_pages/cornell_faculty.html" class="margin links">Faculty&Staff</a>
+    <a href="./content_pages/cornell_alumni.html" class="margin links">ALUMNI</a>
+    <a><input type="text" placeholder="Search" class="btn_style"></a>
     <a><img src="./images/search-logo-md.png" width="30px" height="20px"></a>
 
   </div>
   <div>
-    <div>
-      <img src="./images/download.png" height="130px">
-      <ul>
-        <li><a href="./navigation_pages/about.html"> About Cornell</a> </li>
-        <li><a href="./navigation_pages/admissions.html">Admissions</a></li>
-        <li><a href="./navigation_pages/academics.html">Academics</a></li>
-        <li><a href="./navigation_pages/research.html">Research</a></li>
-        <li><a href="./navigation_pages/public_enagagement.html">Public Engagement</a></li>
-        <li><a href="./navigation_pages/student_life.html">Student Life</a></li>
-      </ul>
-    </div>
-    <img src="./images/cornell.jpg" width="100%;" alt="" />
+      <img src="./images/download.png" height="130px" class="vertical">
+      <a href="./navigation_pages/about.html" class="ml_left_nav1 links"> About Cornell</a>
+      <a href="./navigation_pages/admissions.html" class="margin-nav links">Admissions</a>
+      <a href="./navigation_pages/academics.html" class="margin-nav links">Academics</a>
+      <a href="./navigation_pages/research.html" class="margin-nav links">Research</a>
+      <a href="./navigation_pages/public_enagagement.html" class="margin-nav links">Public Engagement</a>
+      <a href="./navigation_pages/student_life.html" class="margin-nav links">Student Life</a>
+      <img src="./images/cornell.jpg" width="100%;" alt="" />
+    
   </div>
 
   <br>
@@ -112,49 +149,50 @@
     <a href="https://twitter.com/CornellGrad">@CORNELL_TECH</a>
   </div>
 
-  <img src="./images/cornell.jpg" width="1300px" height="500px" />
+  <img src="./images/cornell.jpg" width="1250px" height="500px" />
 
   <br>
   <br>
   <div>
-   <p>Explore</p>
-   <a href = './footer/botanic.html'>Botanic gardens page</a>
-   <a href="./footer/careers.html"> Careers</a>
-   <a href = './footer/chronicle.html'>Cornell Chrnonicles</a>
-   <a href = './footer/global.html'>Global</a>
-   <a href="./footer/lthaca.html">lthaca</a>
-   <a href="./footer/library.html"> Library</a>
-   <a href="./footer/locations.html"> Locations</a>
-   <a href="./footer/museum.html">Museum</a>
-   <p>Campus</p>
-   <a href="./footer/academic.html">Academic calendar</a>
-   <a href="./footer/info.html">CUIfo</a>
-   <a href="./footer/emergency.html">Emergency</a>
-   <a href="./footer/events.html">Events</a>
-   <a href="./footer/live.html">Live view</a>
-   <a href="./footer/maps.html">Maps</a>
-   <a href="./footer/operating_status.html">Operating status</a>
-   <a href="./footer/people_search.html">People Search</a>
-   <a href="./footer/weather.html">Weather</a>
-   <p>RESOURCES</p>
-   <a href="./footer/caring_community.html">Caring Community</a>
-   <a href="./footer/accessibility.html">Accessibility</a>
-   <a href="./footer/diversity.html">Diverisity</a>
-   <a href="./footer/media.html">For Media</a>
-   <a href="./footer/leadership.html">Leadership</a>
-   <a href="./footer/share.html">Share</a>
-   <a href="./footer/support.html">Support Channel</a>
-   <a href="./footer/sustainability.html">Sustainablility</a>
-   
+    <p>Explore</p>
+    <a href='./footer/botanic.html'>Botanic gardens page</a>
+    <a href="./footer/careers.html"> Careers</a>
+    <a href='./footer/chronicle.html'>Cornell Chrnonicles</a>
+    <a href='./footer/global.html'>Global</a>
+    <a href="./footer/lthaca.html">lthaca</a>
+    <a href="./footer/library.html"> Library</a>
+    <a href="./footer/locations.html"> Locations</a>
+    <a href="./footer/museum.html">Museum</a>
+    <p>Campus</p>
+    <a href="./footer/academic.html">Academic calendar</a>
+    <a href="./footer/info.html">CUIfo</a>
+    <a href="./footer/emergency.html">Emergency</a>
+    <a href="./footer/events.html">Events</a>
+    <a href="./footer/live.html">Live view</a>
+    <a href="./footer/maps.html">Maps</a>
+    <a href="./footer/operating_status.html">Operating status</a>
+    <a href="./footer/people_search.html">People Search</a>
+    <a href="./footer/weather.html">Weather</a>
+    <p>RESOURCES</p>
+    <a href="./footer/caring_community.html">Caring Community</a>
+    <a href="./footer/accessibility.html">Accessibility</a>
+    <a href="./footer/diversity.html">Diverisity</a>
+    <a href="./footer/media.html">For Media</a>
+    <a href="./footer/leadership.html">Leadership</a>
+    <a href="./footer/share.html">Share</a>
+    <a href="./footer/support.html">Support Channel</a>
+    <a href="./footer/sustainability.html">Sustainablility</a>
+
     <center>footer</center>
   </div>
 
   <script>
     var id = document.getElementById("education")
 
-    function load(){
-    id.style.display = "none"
-  }
+    function load() {
+      id.style.display = "none"
+    }
+
     function show() {
       console.log(id.style.display)
       if (id.style.display == "none") {
