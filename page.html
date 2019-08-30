@@ -123,7 +123,6 @@
     }
     .img-middle{
       width:33%;
-     /* margin-left: 5%;*/
     }
     .img-right{
       width:30%;
@@ -181,6 +180,38 @@
       background-color: white;
       color: brown;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .rect1{
+      width: 30%;
+      height: 53.5%; 
+      /* border: 1px solid black;  */
+      position: absolute; 
+      margin-left: 4%;
+    }
+    .rect2{
+      width: 30%;
+      height: 53.5%; 
+      /* border: 1px solid black;  */
+      position: absolute; 
+      margin-left: 38%;
+    }
+    .rectangle-footer{
+      width: 100%;
+      height: 60%; 
+      border: 1px solid black; 
+      position: absolute; 
+      background-color: grey;
+    }
+    .mar-top{
+      margin-top: 15%;
+    }
+    .rectangle2 {
+      width: 1300px;
+      height: 500px;
+      border: 1px solid #000;
+      display: inline-block;
+      background-color: darkslategray;
+      color: white;
     }
 
   </style>
@@ -346,28 +377,51 @@
     <a href="https://www.instagram.com/CornellUniversity/" class="links"><center>CORNELL UNIVERSITY</center></a>
   </div>
   <div class="column img-middle">
-    <a href="https://twitter.com/Cornell" class="links">@CORNELL</a>
+    <a href="https://twitter.com/Cornell" class="links"><center>@CORNELL</center></a>
   </div>
   <div class="column img-right">
-    <a href="https://twitter.com/CornellGrad" class="links">@CORNELL_TECH</a>
+    <a href="https://twitter.com/CornellGrad" class="links"><center>@CORNELL_TECH</center></a>
   </div>
-  <div class="ml-left-descriptions column left"><img src="./images/Screenshot from 2019-08-29 13-49-28.png"></div>
+  <div>
+  <img src="./images/Screenshot from 2019-08-29 13-49-28.png" class="ml-left-descriptions">
+  <span class="rect1">
+<center class="mar-top">RT <a href="https://twitter.com/Cornell">@CornellAgriTech:" </a>By measuring soil sulfur levels state wide we hope to get a better idea of how common sulfur deficiencies are ,"Mi...
+     ABOUT 16 HOURS AGO</center>
+    </span>
+  <span class="rect2"><center class="mar-top">The Mui Ho Fine Arts Library is now open in a renovated and resorted Rand Hall.Read how the new. <a href="https://twitter.com/CornellGrad">@Cornell_Library "… https://t.co/VQdTACCmaD</a>ABOUT 17 HOURS AGO</center></span>
+  </div>
+  <div>  
+  
+    <div class="rectangle2 ">
+      <video class="rectangle2" controls>
+        <source src="./The.Equalizer.2014.720p.BluRay.x264.YIFY.mp4" type="video/mp4">
+      </video>
+      <center>video space</center>
+    </div>
 
-  <img src="./images/cornell.jpg" width="1250px" height="500px" />
+
+  
+</div>
+
+<div class="rectangle-footer">
 
   <br>
   <br>
   <div>
-    <p>Explore</p>
-    <a href='./footer/botanic.html'>Botanic gardens page</a>
-    <a href="./footer/careers.html"> Careers</a>
-    <a href='./footer/chronicle.html'>Cornell Chrnonicles</a>
-    <a href='./footer/global.html'>Global</a>
-    <a href="./footer/lthaca.html">lthaca</a>
-    <a href="./footer/library.html"> Library</a>
-    <a href="./footer/locations.html"> Locations</a>
-    <a href="./footer/museum.html">Museum</a>
-    <p>Campus</p>
+    <label>Explore</label>
+    <span>
+    <ul>
+    <li><a href='./footer/botanic.html'>Botanic gardens page</a></li>
+    <li><a href="./footer/careers.html"> Careers</a></li>
+    <li><a href='./footer/chronicle.html'>Cornell Chrnonicles</a></li>
+    <li><a href='./footer/global.html'>Global</a></li>
+    <li><a href="./footer/lthaca.html">lthaca</a></li>
+    <li><a href="./footer/library.html"> Library</a></li>
+    <li><a href="./footer/locations.html"> Locations</a></li>
+    <li><a href="./footer/museum.html">Museum</a></li>
+   </ul> 
+   </span>
+    <label>Campus</label>
     <a href="./footer/academic.html">Academic calendar</a>
     <a href="./footer/info.html">CUIfo</a>
     <a href="./footer/emergency.html">Emergency</a>
@@ -389,6 +443,7 @@
 
     <center>footer</center>
   </div>
+</div>
 
   <script>
     var id = document.getElementById("education")
