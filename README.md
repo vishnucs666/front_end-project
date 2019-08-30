@@ -19,5 +19,7 @@
    
    The content_pages directory contain the neccessary pages for the website
    
+   The other folders contain the necessary webpages for the cornell website
+   
    
 
