@@ -52,6 +52,21 @@
       text-decoration: underline;
     }
 
+
+    a.links-footer:link {
+      color: white;
+      text-decoration: none;
+    }
+
+    a.links-footer:visited {
+      color: white;
+      text-decoration: none;
+    }
+
+    a.links-footer:hover {
+      text-decoration: underline;
+    }
+
     .vertical {
       vertical-align: middle;
     }
@@ -195,12 +210,26 @@
       position: absolute; 
       margin-left: 38%;
     }
+    .footer-rectangle1{
+      width: 20%;
+      height: 50%;
+      position: absolute;
+      margin-left: 2%;
+    }
+    .footer-rectangle2{
+      width: 20%;
+      height: 50%;
+      position: absolute;
+      margin-left: 19%;
+    }
+
     .rectangle-footer{
       width: 100%;
-      height: 60%; 
+      height: 68%; 
       border: 1px solid black; 
       position: absolute; 
-      background-color: grey;
+      background-color: #222;
+      margin-top: -1%;
     }
     .mar-top{
       margin-top: 15%;
@@ -211,6 +240,22 @@
       border: 1px solid #000;
       display: inline-block;
       background-color: darkslategray;
+      color: #ccc;
+    }
+    .mar-top-footer{
+      margin-top: 5%;
+    }
+    .mar-top-footer-res{
+      margin-top: 3%;
+    }
+    .footer-top{
+      margin-top: 4%;
+      margin: 1%;
+    }
+    .footer-ml{
+      margin-left: 20%;
+    }
+    .footer-heading-font{
       color: white;
     }
 
@@ -396,7 +441,6 @@
       <video class="rectangle2" controls>
         <source src="./The.Equalizer.2014.720p.BluRay.x264.YIFY.mp4" type="video/mp4">
       </video>
-      <center>video space</center>
     </div>
 
 
@@ -408,42 +452,54 @@
   <br>
   <br>
   <div>
-    <label>Explore</label>
-    <span>
-    <ul>
-    <li><a href='./footer/botanic.html'>Botanic gardens page</a></li>
-    <li><a href="./footer/careers.html"> Careers</a></li>
-    <li><a href='./footer/chronicle.html'>Cornell Chrnonicles</a></li>
-    <li><a href='./footer/global.html'>Global</a></li>
-    <li><a href="./footer/lthaca.html">lthaca</a></li>
-    <li><a href="./footer/library.html"> Library</a></li>
-    <li><a href="./footer/locations.html"> Locations</a></li>
-    <li><a href="./footer/museum.html">Museum</a></li>
-   </ul> 
-   </span>
-    <label>Campus</label>
-    <a href="./footer/academic.html">Academic calendar</a>
-    <a href="./footer/info.html">CUIfo</a>
-    <a href="./footer/emergency.html">Emergency</a>
-    <a href="./footer/events.html">Events</a>
-    <a href="./footer/live.html">Live view</a>
-    <a href="./footer/maps.html">Maps</a>
-    <a href="./footer/operating_status.html">Operating status</a>
-    <a href="./footer/people_search.html">People Search</a>
-    <a href="./footer/weather.html">Weather</a>
-    <p>RESOURCES</p>
-    <a href="./footer/caring_community.html">Caring Community</a>
-    <a href="./footer/accessibility.html">Accessibility</a>
-    <a href="./footer/diversity.html">Diverisity</a>
-    <a href="./footer/media.html">For Media</a>
-    <a href="./footer/leadership.html">Leadership</a>
-    <a href="./footer/share.html">Share</a>
-    <a href="./footer/support.html">Support Channel</a>
-    <a href="./footer/sustainability.html">Sustainablility</a>
-
-    <center>footer</center>
+    <span class="footer-rectangle1">
+    <label class="footer-heading-font"><b>EXPLORE</b></label>
+    <p class="mar-top-footer"><a href='./footer/botanic.html' class="links-footer">Botanic gardens</a></p>
+    <p class="mar-top-footer"><a href="./footer/careers.html" class="links-footer"> Careers</a></p>
+    <p class="mar-top-footer"><a href='./footer/chronicle.html' class="links-footer">Cornell Chrnonicles</a></p>
+    <p class="mar-top-footer"><a href='./footer/global.html' class="links-footer">Global</a></p>
+    <p class="mar-top-footer"><a href="./footer/lthaca.html" class="links-footer">lthaca</a></p>
+    <p class="mar-top-footer"><a href="./footer/library.html" class="links-footer"> Library</a></p>
+    <p class="mar-top-footer"><a href="./footer/locations.html" class="links-footer"> Locations</a></p>
+    <p class="mar-top-footer"><a href="./footer/museum.html" class="links-footer">Museum</a></p> 
+   </span >
+    <span class="footer-rectangle2">
+    <label class="footer-heading-font"><b>CAMPUS</b></label>
+    <p class="mar-top-footer"><a href="./footer/academic.html" class="links-footer">Academic calendar</a></p>
+    <p class="mar-top-footer"><a href="./footer/info.html" class="links-footer">CUIfo</a></p>
+    <p class="mar-top-footer"><a href="./footer/emergency.html" class="links-footer">Emergency</a></p>
+    <p class="mar-top-footer"><a href="./footer/events.html" class="links-footer">Events</a></p>
+    <p class="mar-top-footer"><a href="./footer/live.html" class="links-footer">Live view</a></p>
+    <p class="mar-top-footer"><a href="./footer/maps.html" class="links-footer">Maps</a></p>
+    <p class="mar-top-footer"><a href="./footer/operating_status.html" class="links-footer">Operating status</a></p>
+    <p class="mar-top-footer"><a href="./footer/people_search.html" class="links-footer">People Search</a></p>
+    <p class="mar-top-footer"><a href="./footer/weather.html" class="links-footer">Weather</a></p>
+  </span>
+    <span class="rect2">
+    <label class="footer-heading-font"><b>RESOURCES</b></label>
+    <p class="mar-top-footer-res"><a href="./footer/caring_community.html" class="links-footer">Caring Community</a></p>
+    <p class="mar-top-footer"><a href="./footer/accessibility.html" class="links-footer">Accessibility</a></p>
+    <p class="mar-top-footer"><a href="./footer/diversity.html" class="links-footer">Diverisity</a></p>
+    <p class="mar-top-footer"><a href="./footer/media.html" class="links-footer">For Media</a></p>
+    <p class="mar-top-footer"><a href="./footer/leadership.html" class="links-footer">Leadership</a></p>
+    <p class="mar-top-footer"><a href="./footer/share.html" class="links-footer">Share</a></p>
+    <p class="mar-top-footer"><a href="./footer/support.html" class="links-footer">Support Channel</a></p>
+    <p class="mar-top-footer"><a href="./footer/sustainability.html" class="links-footer">Sustainablility</a></p>
+  </span>
+   
   </div>
+  
+  <div style="width: 85%;border: 1px solid black;margin-top: 28%;margin-left: 5%;"></div><br>
+
+  <a href="https://www.cornell.edu/copyright.cfm" class="links-footer footer-top footer-ml">Copy right</a>
+  <a href="https://www.cornell.edu/site-info.cfm" class="links-footer footer-top">Site Information</a>
+  <a href="https://www.cornell.edu/privacy-notice.cfm" class="links-footer footer-top">Privacy Notice</a>
+  <a href="https://www.cornell.edu/contact/" class="links-footer footer-top">Contact</a>
+  <a href="mailto:webmaster@cornell.edu" class="links-footer footer-top">Feedback</a>
+  <a href="https://www.cornell.edu/accessibility-assistance.cfm" class="links-footer footer-top">Web Accessibility</a>
 </div>
+
+
 
   <script>
     var id = document.getElementById("education")
