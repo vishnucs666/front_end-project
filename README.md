@@ -13,7 +13,7 @@
    (i) Basic html
    (ii) Java script
    
-## Tutorials
+## Details
 
    The images directory contains the images for the university 
    
